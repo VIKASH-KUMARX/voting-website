@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+}
+
+.header{
+    background-color: rgba(0, 0, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form{
+    width: 420px;
+    margin-top:5%;
+    margin-left: calc(50% - 210px);
+}
+
+fieldset{
+    text-align: center;
+    border: none;
+}
+
+.img{
+    padding:20px;
+}
+
+.all_img{
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+} 
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    filter: drop-shadow(10px 10px 10px);
+}
+
+img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.president_vote_button{
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-weight: 550;
+    border-radius: 5px;
+    transform:scale(1.2);
+}
+
+.president_vote_button:hover{
+    background-color: rgb(4, 200, 4);
+    transform:scale(1.3);
+}
+
+.next_button{
+    width: 150px;
+    position: absolute;
+    font-weight: 600;
+    border:solid black;
+    padding:10px 5px;
+    left:75%;
+    top:85%;
+    border-radius: 5px;
+    background-color:blue;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.next_button:hover{
+    border: solid black;
+    background-color: rgb(4, 200, 4);
+    transform-origin: right;
+    transition: .2s;
+}
